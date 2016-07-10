@@ -1,17 +1,17 @@
 + [AstroLibs](#astrolibs)
 + [Org-JuliaAstro](#org-juliaastro)
    + [Astronomical Imaging](#astronomicalimaging)
- 
+
 ----
 
 # AstroLibs
-+ [Astro.jl](https://github.com/cormullion/Astro.jl) :: Jan Meeus astronomical formulas and some time/date code in Julia.
++ [Astro.jl](https://github.com/cormullion/Astro.jl) :: 梅乌斯天文公式和一些Julia中的时间编码
 + [AstroLib.jl](https://github.com/giordano/AstroLib.jl) :: Bundle of small
   astronomical and astrophysical routines, based on IDL Astronomy User's Library
   (AstroLib).
-+ [Astrodynamics.jl](https://github.com/helgee/Astrodynamics.jl) :: An astrodynamics library in Julia.
-+ [CasaCore.jl](https://github.com/mweastwood/CasaCore.jl) :: A Julia wrapper of CasaCore.
-+ [Celeste.jl](https://github.com/jeff-regier/Celeste.jl) :: Scalable inference for a generative model of astronomical images. 
++ [Astrodynamics.jl](https://github.com/helgee/Astrodynamics.jl) :: Julia的天体动力学库
++ [CasaCore.jl](https://github.com/mweastwood/CasaCore.jl) :: CasaCore的Julia封装.
++ [Celeste.jl](https://github.com/jeff-regier/Celeste.jl) :: Scalable inference for a generative model of astronomical images.
 + [Interplanetary.jl](https://github.com/crbinz/Interplanetary.jl) :: Functions for low-fidelity interplanetary navigation and guidance simulations.
 + [Jadex.jl](https://github.com/autocorr/Jadex.jl) :: Julia port of RADEX.
 + [JPLEphemeris.jl](https://github.com/helgee/JPLEphemeris.jl) :: The JPL Development Ephemerides are the results of simulations of the Solar System used for spacecraft navigation and astronomical purposes.
@@ -24,7 +24,7 @@
 + [WCSLIB.jl](https://github.com/nolta/WCSLIB.jl) :: wcslib wrapper for Julia.
 
 ###### Resources
-+ [ioa-julia-tutorials](https://github.com/swt30/ioa-julia-tutorials) :: An introductory Julia tutorial for the Institute of Astronomy, University of Cambridge 
++ [ioa-julia-tutorials](https://github.com/swt30/ioa-julia-tutorials) :: An introductory Julia tutorial for the Institute of Astronomy, University of Cambridge
 
 ----
 
@@ -36,4 +36,3 @@
 
 ### Astronomical Imaging
 + [FITSIO.jl](https://github.com/JuliaAstro/FITSIO.jl) :: Flexible Image Transport System (FITS) support for Julia.
-

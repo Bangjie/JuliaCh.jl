@@ -12,10 +12,10 @@
 
 + [auditory.jl](https://github.com/jfsantos/auditory.jl) :: 声学滤波器.
 + [Chipmunk.jl](https://github.com/zyedidia/Chipmunk.jl) :: 物理引擎Chipmunk的Julia封装.
-+ [CMSSW.jl](https://github.com/jpata/CMSSW.jl) :: A work-in-progress wrapper for ROOT.jl.
++ [CMSSW.jl](https://github.com/jpata/CMSSW.jl) :: 还在开发中的ROOT.jl封装.
 + [Codata.jl](https://github.com/kofron/Codata.jl)
-+ [HEP.jl](https://github.com/jpata/HEP.jl) :: A collection of methods useful for HEP.
-+ [JLab.jl](https://github.com/amyascwk/JLab.jl) :: Some scripts used in MIT 8.13 Experimental Physics (Fall 2014).
++ [HEP.jl](https://github.com/jpata/HEP.jl) :: 一些对高能物理有用的方法
++ [JLab.jl](https://github.com/amyascwk/JLab.jl) :: 一些在MIT 8.13 实验物理中的脚本 (秋季 2014).
 + [JuliBoots](https://github.com/mfpaulos/JuliBoots) :: Conformal bootstrap calculations.
 + [JuliaPower](https://github.com/prezaei85/JuliaPower) :: A package of scripts in Julia to solve power flow and simulate cascading failures in power systems.
 + [LambertW.jl](https://github.com/robertdj/LambertW.jl) :: Lambert's W function in Julia.
@@ -52,8 +52,8 @@
 ----
 
 # 医学物理
-+ [Psychosis.jl](https://github.com/rennis250/Psychosis.jl) :: A Julia package for visual psychophysics that mimics the Processing environment. 
-+ [Willow.jl](https://github.com/rennis250/Willow.jl) :: A Julia package for visual psychophyscis that primarily mimics the Processing environment. 
++ [Psychosis.jl](https://github.com/rennis250/Psychosis.jl) :: A Julia package for visual psychophysics that mimics the Processing environment.
++ [Willow.jl](https://github.com/rennis250/Willow.jl) :: A Julia package for visual psychophyscis that primarily mimics the Processing environment.
 + [Xray.jl]https://github.com/ggggggggg/Xray.jl) :: Julia interface for NIST x-ray database.
 
 ----
@@ -72,7 +72,7 @@ An umbrella Org for Quantum Physics, Lindblad dynamics, Quantum tensor network, 
 
 # 统计力学
 + [IsingModels.jl](https://github.com/johnmyleswhite/IsingModels.jl) :: The Ising model as a Julian distribution.
-+ [MyIsing.jl](https://github.com/kaslusimoes/MyIsing.jl) :: 简单的Ising模型模拟. 
++ [MyIsing.jl](https://github.com/kaslusimoes/MyIsing.jl) :: 简单的Ising模型模拟.
 
 ----
 
