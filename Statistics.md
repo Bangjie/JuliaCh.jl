@@ -1,35 +1,35 @@
 __Statistics, Operations Research (OR), Actuarial Finance, etc. Machine Learning (ML) and Statistics are closely related fields, so do check out the [AI.md](https://github.com/svaksha/Julia.jl/blob/master/AI.md) page for ML packages.__
 
-+ [ACTUARIAL SCIENCE](#actuarial-science)
-   + [Econometrics](#econometrics)
-   + [Finance](#finance)
-   + [Org-JuliaQuant](#org-juliaquant)
-+ [DATA SCIENCE](#data-science)
-+ [OPERATIONS RESEARCH](#operations-research)
-   + [Optimization](#optimization)
-      + [Genetic Programming](#genetic-programming)
-      + [Geometric Programming](#geometric-programming)
-   + [Org-JuliaOpt](#org-juliaopt)
-   + [Org-JuliaOptimizers](#org-juliaoptimizers)
-   + [Regression Analysis](#regression-analysis)
-+ [STATISTICS](#statistics)
-   + [Org-JuliaStats](#org-juliastats)
-      + [Probabilistic Programming](#probabilistic-programming)
-   + [Bayesian](#bayesian)
-   + [Gaussian](#gaussian)
-   + [Monte Carlo Method](#monte-carlo-method)
-   + [Statistical Tests](#statistical-tests)
-   + [TimeSeries Analysis](#timeseries-analysis)
-+ [STOCHASTICS](#stochastics)
-+ [RESOURCES](#resources)
-   + [Cookbooks](#cookbooks)
-   + [Videos](#videos)
++ [精算学](#精算学)
+   + [计量经济学](#计量经济学)
+   + [金融学](#金融学)
+   + [JuliaQuant组织](#JuliaQuant组织)
++ [数据科学](#数据科学)
++ [运筹学](#operations-research)
+   + [优化算法](#optimization)
+      + [遗传规划](#genetic-programming)
+      + [几何规划](#geometric-programming)
+   + [JuliaOpt组织](#org-juliaopt)
+   + [JuliaOptimizers组织](#org-juliaoptimizers)
+   + [回归分析](#regression-analysis)
++ [统计学](#statistics)
+   + [JuliaStats组织](#org-juliastats)
+      + [概率规划](#probabilistic-programming)
+   + [贝叶斯](#bayesian)
+   + [高斯](#gaussian)
+   + [蒙特卡洛方法](#monte-carlo-method)
+   + [统计测试](#statistical-tests)
+   + [时间序列分析](#timeseries-analysis)
++ [推断统计学](#stochastics)
++ [资源](#resources)
+   + [教程](#cookbooks)
+   + [视频](#videos)
 
 ----
 
-# ACTUARIAL SCIENCE
+# 精算学
 
-## Econometrics
+## 计量经济学
 + [copula.jl](https://github.com/floswald/copula.jl) :: Julia Copula package implements the gaussian AR1 copula.
 + [DynamicFactorModels.jl](https://github.com/joidegn/DynamicFactorModels.jl) :: Dynamic Factor Models for Julia.
 + [Dynare.jl](https://github.com/DynareTeam/Dynare.jl) :: This package aims at bringing to Julia some of the algorithms incorporated in Dynare, a platform for solving dynamic economic models.
@@ -41,15 +41,15 @@ __Statistics, Operations Research (OR), Actuarial Finance, etc. Machine Learning
 + [Loss.jl](https://github.com/johnmyleswhite/Loss.jl) :: General functions for estimating loss functions inspired by Kaggle's release of code for many common metrics.
 + [QuantEcon.jl](https://github.com/QuantEcon/QuantEcon.jl) :: This package collects code for quantitative economic modeling. It is currently comprised of two main parts: 1. A toolbox of routines useful when doing economics and 2. Implementations of types and solution methods for common economic models.
    + [Quantitative economic modelling](http://quant-econ.net/jl/index.html) lecture series in Julia language, designed and written by Thomas J. Sargent and John Stachurski, that is freely available as a [PDF](http://quant-econ.net/_static/pdfs/jl-quant-econ.pdf) file too.
-+ [RuinProbability.jl](https://github.com/Hank-Qian/RuinProbability.jl) :: For calculating the ruin probability with real data under different claims models.
+   + [RuinProbability.jl](https://github.com/Hank-Qian/RuinProbability.jl) :: For calculating the ruin probability with real data under different claims models.
 
-## Finance
+## 金融学
 + [AssetMgmt.jl](https://github.com/cgroll/AssetMgmt.jl) :: Asset Management.
 + [BigFinance.jl](https://github.com/jiahao/BigFinance.jl) :: Analysis of high frequency quantitative data.
    + flashcrash-ui](https://github.com/shashi/flashcrash-ui) :: UI for `BigFinance.jl`.
 + [Bloomberg.jl](https://github.com/milktrader/Bloomberg.jl) :: Providing access to Bloomberg financial data in Julia.
 + [BusinessDays.jl](https://github.com/felipenoris/BusinessDays.jl) :: A highly optimized Business Days calculator written in Julia language. Also known as Working Days calculator.
-+ [Currencies.jl](https://github.com/TotalVerb/Currencies.jl) ::  Simple checked fixed-point currencies for Julia. 
++ [Currencies.jl](https://github.com/TotalVerb/Currencies.jl) ::  Simple checked fixed-point currencies for Julia.
 + [CTechCommon.jl](https://github.com/tbreloff/CTechCommon.jl) :: Some functionality to be shared among packages.  {Usable: 4, Robust: 4, Active: 1}
 + [EodData.jl](https://github.com/adriantorrie/EodData.jl) :: Julia package for connecting to the [EodData.com XML Web Service](http://eoddata.com/products/webservice.aspx).
 + [FinMarkets.jl](https://github.com/imanuelcostigan/FinMarkets.jl) :: Describe and model financial markets objects using Julia.
@@ -62,7 +62,7 @@ __Statistics, Operations Research (OR), Actuarial Finance, etc. Machine Learning
 + [OpenFiscaCore.jl](https://github.com/openfisca/OpenFiscaCore.jl) :: A port of OpenFisca-Core to Julia. This is the core module of OpenFisca, without GUI or country-specific code & data.
 + [OpenFiscaFrance.jl](https://github.com/openfisca/OpenFiscaFrance.jl) :: A port of OpenFisca-France to Julia, containing the formulas and parameters of the french tax-benefit system.
 + [Quandl.jl](https://github.com/milktrader/Quandl.jl) :: Julia api to Quandl open source financial, economic and social datasets.
-+ [RobHood.jl](https://github.com/cndesantana/RobHood.jl) :: Open platform to investigate markets. 
++ [RobHood.jl](https://github.com/cndesantana/RobHood.jl) :: Open platform to investigate markets.
 + [SDE.jl](https://github.com/mschauer/SDE.jl) :: Simulation and inference for Ito processes and diffusions.
 + [stockMonitor.jl](https://github.com/krthkj/stockMonitor.jl) :: A module which constantly collects and performs analyses the stock market.
 + [TradingSystem.jl](https://github.com/milktrader/TradingSystem.jl) :: Quantitative trading framework in Julia.
@@ -71,7 +71,7 @@ __Statistics, Operations Research (OR), Actuarial Finance, etc. Machine Learning
 + [ZVSimulator.jl](https://github.com/scidom/ZVSimulator.jl) :: The ZVSimulator package provides a framework for assessing the zero variance (ZV) principle for Monte Carlo or random sampling via simulation.
 
 
-## Org-[JuliaQuant](https://github.com/JuliaQuant)
+## [JuliaQuant](https://github.com/JuliaQuant)组织
 + [FinancialBlotter.jl](https://github.com/JuliaQuant/FinancialBlotter.jl) :: Financial Instruments and Accounting in Julia.
 + [FinanceStats.jl](https://github.com/JuliaQuant/FinanceStats.jl) :: An experimental sandbox of functions that implement common statistical methods in finance.
 + [Grist.jl](https://github.com/JuliaQuant/Grist.jl) :: Financial blotter.
@@ -87,7 +87,7 @@ __Statistics, Operations Research (OR), Actuarial Finance, etc. Machine Learning
 
 ----
 
-# DATASCIENCE
+# 数据科学
 + [DataScienceBestPractices](https://github.com/AllenDowney/DataScienceBestPractices) :: Supporting code for a video series on best practices for exploratory data analysis.
 
 ###### Learning Resources
@@ -121,13 +121,13 @@ __Statistics, Operations Research (OR), Actuarial Finance, etc. Machine Learning
 + [AmplNLWriter.jl](https://github.com/JackDunnNZ/AmplNLWriter.jl) ::  Julia interface to [AMPL-enabled solvers](http://ampl.com/products/solvers/all-solvers-for-ampl/).
 + [AutomotiveDrivingModels.jl](https://github.com/tawheeler/AutomotiveDrivingModels.jl) :: For car encounter models.
 + [BARON.jl](https://github.com/joehuchette/BARON.jl) :: A wrapper for the BARON mixed-integer nonlinear programming solver.
-+ [BilinearJuMP.jl](https://github.com/IainNZ/BilinearJuMP.jl) :: A JuMP extension for bilinear optimization problems. 
++ [BilinearJuMP.jl](https://github.com/IainNZ/BilinearJuMP.jl) :: A JuMP extension for bilinear optimization problems.
 + [BlackBoxOptim.jl](https://github.com/robertfeldt/BlackBoxOptim.jl) :: An experimental, work-in-progress global optimization framework for Julia, supporting both multi- and single-objective optimization problems, focused on (meta-)heuristic/stochastic algorithms (DE, PSO, CMA-ES etc).
 + [BLOM.jl](https://github.com/tkelman/BLOM.jl) :: A Julia port of the Berkeley Library for Optimization Modeling (Work-In-Progress).
-+ [ConicNonlinearBridge.jl](https://github.com/mlubin/ConicNonlinearBridge.jl) :: Wrapper to solve conic optimization problems with derivative-based nonlinear solvers. 
++ [ConicNonlinearBridge.jl](https://github.com/mlubin/ConicNonlinearBridge.jl) :: Wrapper to solve conic optimization problems with derivative-based nonlinear solvers.
 + [CPLEX.jl](https://github.com/joehuchette/CPLEX.jl) :: The CPLEX.jl package provides an interface for using IBM's CPLEX Optimizer™ from the Julia language. You cannot use CPLEX.jl without having purchased and installed a copy of CPLEX Optimizer™ from IBM. This package is available free of charge and in no way replaces or alters any functionality of IBM's CPLEX Optimizer product.
 + [DDUS.jl](https://github.com/vgupta1/DDUS.jl) :: Data-driven Uncertainty Sets for the JuMPeR framework.
-+ [DReal.jl](https://github.com/zenna/DReal.jl) :: A Julia wrapper for Nonlinear SMT solving using  the dReal SMT solver. 
++ [DReal.jl](https://github.com/zenna/DReal.jl) :: A Julia wrapper for Nonlinear SMT solving using  the dReal SMT solver.
 + [ECOS.jl](https://github.com/jfsantos/ECOS.jl) :: Julia wrapper for the ECOS SOCP solver.
 + [GeneticAlgorithms.jl](https://github.com/forio/GeneticAlgorithms.jl) :: is a lightweight framework that simplifies the process of creating genetic algorithms and running them in parallel.
 + [JuliaCMAES](https://github.com/Staross/JuliaCMAES) :: CMA-ES port - a mix of the original minimal MATLAB implementation (purecmaes.m) and the full one (cmaes.m).
@@ -147,7 +147,7 @@ __Statistics, Operations Research (OR), Actuarial Finance, etc. Machine Learning
 + [Mayday.jl](https://github.com/rdeits/Mayday.jl) :: Sums-of-Squares optimization in Julia, powered by JuMP
 + [Memoize.jl](https://github.com/simonster/Memoize.jl) :: Easy memoization for Julia.
 + [MOpt.jl](https://github.com/floswald/MOpt.jl) :: Parallel derivative-free Moment Optimization for Julia.
-+ [Munkres.jl](https://github.com/FugroRoames/Munkres.jl) :: Munkres algorithm for the optimal assignment problem. 
++ [Munkres.jl](https://github.com/FugroRoames/Munkres.jl) :: Munkres algorithm for the optimal assignment problem.
 + [NEOS.jl](https://github.com/odow/NEOS.jl) :: A Julia interface for the NEOS Optimisation Server.
 + [NLTester](https://github.com/IainNZ/NLTester) :: Code for benchmarks comparing AMPL, Julia, and YALMIP (MATLAB) for nonlinear modeling.
 + [pikaia.jl](https://github.com/tmeits/pikaia.jl) :: Genetic Algorithms (GA's).
@@ -191,7 +191,7 @@ An umbrella group for Julia-based optimization-related projects, with its own [m
 + [Optim.jl](https://github.com/JuliaOpt/Optim.jl) :: A basic optimization algorithms implementation.
 
 ## Org-JuliaOptimizers
-+ [AMD.jl](https://github.com/JuliaOptimizers/AMD.jl) :: Approximate Minimum Degree Ordering in Julia. 
++ [AMD.jl](https://github.com/JuliaOptimizers/AMD.jl) :: Approximate Minimum Degree Ordering in Julia.
 + [ampl.jl](https://github.com/JuliaOptimizers/ampl.jl) :: Julia interface to the AMPL Solver Library (ASL).
 + [AmplNLReader.jl](https://github.com/JuliaOptimizers/AmplNLReader.jl) :: A Julia Interface to AMPL.
 + [CUTEst.jl](https://github.com/JuliaOptimizers/CUTEst.jl) :: Julia interface for CUTEst, a fork of [CUTEst.jl](https://github.com/lpoo/CUTEst.jl) by @lpoo.
@@ -203,7 +203,7 @@ An umbrella group for Julia-based optimization-related projects, with its own [m
 
 ## [Regression Analysis](https://en.wikipedia.org/wiki/Compressed_sensing)
 + [BestSubsetRegression.jl](https://github.com/IainNZ/BestSubsetRegression.jl) :: Implements algorithms for the best subset regression problem in Julia.
-+ [FirthRegression.jl](https://github.com/simonster/FirthRegression.jl) :: Firth penalized logistic/Poisson regression. 
++ [FirthRegression.jl](https://github.com/simonster/FirthRegression.jl) :: Firth penalized logistic/Poisson regression.
 + [FLSA.jl](https://github.com/EQt/FLSA.jl) :: Computing the Fused LASSO Signal Approximator.
 + [HD.jl](https://github.com/mlakolar/HD.jl) :: High-dimensional tools.
 + [Lasso.jl](https://github.com/simonster/Lasso.jl) :: Lasso solvers for linear and generalized linear models.
@@ -340,7 +340,7 @@ An umbrella group for Julia-based optimization-related projects, with its own [m
 + [MCBN.jl](https://github.com/binarybana/MCBN.jl) :: Monte Carlo Bayesian averaging over Bayesian networks.
 + [MiniNest.jl](https://github.com/iamed2/MiniNest.jl) :: Julia implementation of nested sampling examples.
 + [NestedSampling.jl](https://github.com/kbarbary/NestedSampling.jl) :: Nested Sampling algorithms for Julia.
-+ [PortHamiltonian.jl](https://github.com/flavioluiz/PortHamiltonian.jl) :: Port-Hamiltonian systems in Julia. 
++ [PortHamiltonian.jl](https://github.com/flavioluiz/PortHamiltonian.jl) :: Port-Hamiltonian systems in Julia.
 + [VarBayes.jl](https://github.com/acetoline/VarBayes.jl) :: Variational Bayesian methods in Julia.
 
 
@@ -382,7 +382,7 @@ An umbrella group for Julia-based optimization-related projects, with its own [m
 ----
 
 # [STOCHASTICS](https://en.wikipedia.org/wiki/Stochastic_process)
-+ [DSGE.jl](https://github.com/FRBNY-DSGE/DSGE.jl) :: The package implements the FRBNY DSGE model and provides general code to estimate many user-specified DSGE models with a [blog post](http://libertystreeteconomics.newyorkfed.org/2015/12/the-frbny-dsge-model-meets-julia.html) to announce the release. [Dynamic stochastic general equilibrium](https://en.wikipedia.org/wiki/Dynamic_stochastic_general_equilibrium) modeling (abbreviated as DSGE, SDGE or DGE) is a branch of applied general equilibrium theory that is influential in contemporary macroeconomics. 
++ [DSGE.jl](https://github.com/FRBNY-DSGE/DSGE.jl) :: The package implements the FRBNY DSGE model and provides general code to estimate many user-specified DSGE models with a [blog post](http://libertystreeteconomics.newyorkfed.org/2015/12/the-frbny-dsge-model-meets-julia.html) to announce the release. [Dynamic stochastic general equilibrium](https://en.wikipedia.org/wiki/Dynamic_stochastic_general_equilibrium) modeling (abbreviated as DSGE, SDGE or DGE) is a branch of applied general equilibrium theory that is influential in contemporary macroeconomics.
 + [DSPsolver.jl](https://github.com/Argonne-National-Laboratory/DSPsolver.jl) :: This package provides an interface for using an open-source software package DSP for solving stochastic mixed-integer programming problems from the Julia language.
 + [HJBFiniteDifference.jl](https://github.com/matthieugomez/HJBFiniteDifference.jl) :: Solve HJB equations through finite difference schemes.
 + [JuMPStoch.jl](https://github.com/joehuchette/JuMPStoch.jl) :: A stochastic optimization framework for JuMP.
